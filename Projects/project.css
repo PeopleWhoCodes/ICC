@@ -1,0 +1,76 @@
+/* projects css */
+
+
+
+.projects{
+	box-shadow: 2px 2px 50px -1px #00000081;
+    background: url('../images/image\ 33.png'), linear-gradient(171.37deg, #3135af 1.81%, #5f64c9 18.93%, #0c0f68 32.14%, #050983 50.24%, #252AA0 67.85%, #0F136D 80.08%, #000232 95.74%) ;
+    background-position: center;
+    align-items: center;
+    padding: 4em 0px;
+    font-size: 1.3em;
+    color:white;
+	font-family: "Poppins", sans-serif;
+}
+.heading{
+	font-size: 5rem;
+    font-weight: 500;
+	padding: 25px 0px;
+    word-spacing: 2px;
+	margin-bottom: 0px;
+    letter-spacing: 2px;
+	text-shadow: 0px 2px 3px #a3a3ca;
+}
+.sub-heading{
+	font-size: 1.5rem;
+	text-shadow: 0px 2px 2px #2c2c88;
+}
+.search{
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4em 0px;
+}
+.search input[type=text]{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 0px;
+    width: 50%;
+    padding: 5px 20px;
+    font-size:1rem;
+    opacity: 0.8;
+}
+.search input:focus{
+    outline: none;
+}
+::placeholder{
+    font-size: 15px;
+}
+.search input[type=submit]{
+    margin: 0px;
+    width: 15%;
+    background-image: linear-gradient(170.37deg,lightblue, blue);
+    padding: 5px 0px;
+    padding-left: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0px;
+    color: white;
+    transition:all 2s;
+    display: flex;
+    justify-content: left;
+}
+
+.search input[type=submit]:hover{
+    background-image: linear-gradient(171.37deg,blue, lightblue);
+  
+}
+.text{
+    font-weight: 500;
+	text-shadow: 0px 2px 1px #dcdce0;
+    font-size: 3.2em;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
