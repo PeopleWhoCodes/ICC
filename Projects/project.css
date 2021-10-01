@@ -7,7 +7,7 @@
     background: url('../images/image\ 33.png'), linear-gradient(171.37deg, #3135af 1.81%, #5f64c9 18.93%, #0c0f68 32.14%, #050983 50.24%, #252AA0 67.85%, #0F136D 80.08%, #000232 95.74%) ;
     background-position: center;
     align-items: center;
-    padding: 6em 0px;
+    padding: 7em 0px;
     font-size: 1em;
     color:white;
 	font-family: "Poppins", sans-serif;
@@ -77,6 +77,9 @@
 }
 
 @media only screen and (max-width: 850px) {
+    .heading{
+        font-size: 4rem;
+    }
     .search{
         justify-content: center;
         width: 100%;

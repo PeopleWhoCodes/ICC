@@ -1,0 +1,250 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	background: rgb(0,2,50);
+	background: linear-gradient(171.37deg, #000232 1.81%, #0F136D 18.93%, #252AA0 32.14%, #4045C2 50.24%, #252AA0 67.85%, #0F136D 80.08%, #000232 95.74%);
+	
+} 
+input:focus, textarea:focus{
+	outline: none;
+}
+
+/* Contact Us Section */
+
+#ContactUs{
+position: absolute;
+/* width: 1441px; */
+height: 779px;
+
+width: 100%;
+
+
+background: url(Rectangle.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+background-blend-mode: normal;
+
+backdrop-filter: blur(4px);
+}
+
+
+.contact-heading{
+position: absolute;
+width: 604px;
+height: 105px;
+
+margin: 39px 437px 635px 400px;
+font-weight: bold;
+font-size: 64px;
+line-height: 156.06%;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+.headings{
+	color:#FFFFFF;
+	position: absolute;
+}
+.inputs{
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	width: 335px;
+	height: 46px;
+	background: #FFFFFF;
+	border: 3px solid #4E65BC;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.full-name-heading{
+	margin: 35px 1040px 405px 42px;
+}
+
+.full-name{
+	padding:9px 17px 9px 17px;
+	margin: 70px 835px 352px 39px;
+}
+
+.email-heading{
+	margin: 35px 634px 405px 448px;
+}
+.email{
+	padding:9px 17px 9px 17px;
+	margin: 70px 426px 352px 448px;
+}
+
+.msg-heading{
+	margin: 153px 943px 287px 42px;
+}
+
+.msg{
+padding:9px 17px 9px 17px;
+width: 1126px;
+height: 168px;
+overflow: hidden;
+resize: none;
+margin: 188px 44px 112px 39px;
+}
+
+.submit-btn{
+position: absolute;
+width: 195px;
+height: 46px;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+border: none;
+margin: 392px 487px 30px 527px;
+color:#FFFFFF;
+background: #00023E;
+text-shadow:none;
+box-shadow: 4px 4px 50px 5px rgba(177, 177, 177, 0.09);
+border-radius: 10px;
+}
+input[type=submit]:hover
+{
+	cursor:pointer;
+}
+
+input[type=submit]:active{
+	box-shadow: inset 0px 0px 6px #fff;
+		
+}
+.contact-box{
+background: linear-gradient(122.15deg, rgba(255, 255, 255, 0.1) 17.47%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+border: 3px solid #4E65BC;
+box-shadow: 0px 4px 4px 0px #00000040;
+position: absolute;
+width: 1209px;
+height: 468px;
+margin: 219px 117px 92px 115px;
+background: linear-gradient(122.15deg, rgba(255, 255, 255, 0.1) 17.47%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(40px);
+border-radius: 20px;
+}
+
+::-webkit-input-placeholder{
+	font-family: "Poppins", sans-serif;
+font-size: 15px;
+font-weight: bold;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+text-shadow: 0px 4px 5px rgba(131, 130, 130, 0.25);
+align-items: center;
+color: #5F5F5F;
+}
+
+
+@media screen and (max-width:500px) {
+	#ContactUs{
+		position: absolute;
+		max-width: 100%;
+		width: 100%;
+	}
+	.contact-heading{
+		height: 43px;
+
+		max-width: 100%;
+		font-size: 28px;
+		line-height: 156.06%;
+		font-weight: 700;
+
+		margin: 12px auto 311px auto;
+		text-align: center;
+		letter-spacing: 0.1em;
+		color: #FFFFFF;
+	}
+	.contact-box{
+		position: relative;
+		margin:67px auto 32px auto ;
+		width: 289px;
+		height: 267px;
+	}
+	.headings{
+		max-width: 100%;
+		position: absolute;
+		width: 60px;
+		height: 12px;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 150%;
+		display: flex;
+		align-items: center;
+		color: #FFFFFF;
+	}
+	.inputs{
+		font-weight: normal;
+		font-size: 8px;
+		line-height: 150%;
+		display: flex;
+		align-items: center;
+		color: #C0C0C0;
+		position: absolute;
+		width: 256px;
+		height: 22px;
+		background: #FFFFFF;
+		border: 1px solid #4E65BC;
+		box-sizing: border-box;
+		border-radius: 3px;
+	}
+	.full-name-heading{
+		margin: 18px 211px 237px 18px;
+	}
+	.full-name{
+		padding: 5px 7px;
+		margin: 36px 16px 209px 17px;
+	}
+	.email-heading{
+		margin:69px 210px 186px 19px;
+	}
+	.email{
+		padding: 5px 7px;
+		margin: 87px 15px 158px 18px;
+	}
+	.msg-heading{
+		margin:120px 184px 135px 18px;
+		width: 87px;
+		height: 12px;
+	}
+	.msg{
+		padding: 5px 7px;
+		margin: 138px 16px 63px 17px;
+		width: 256px;
+		height: 66px;
+	}
+	.submit-btn{
+		width: 92px;
+		height: 28px;
+		background: #00023E;
+		box-shadow: 4px 4px 50px 5px rgba(0, 2, 62, 0.5);
+		border-radius: 3px;
+		margin:224px 98px 15px 99px;
+	}
+	::-webkit-input-placeholder{
+		font-size: 8px;
+		font-weight: 400;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-shadow: 0px 4px 5px rgba(131, 130, 130, 0.25);
+		align-items: center;
+		color: #C0C0C0;
+		}
+}
