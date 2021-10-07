@@ -2,7 +2,9 @@
     margin: 30px 0;
     margin-bottom: 50px;
 }
-
+.sponsor a{
+    text-decoration: none;
+}
 .sponsor .heading{
     text-align: center;
     color: #fff;

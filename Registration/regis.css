@@ -15,6 +15,9 @@
     font-weight: 650;
     text-align: center;
 }
+.register .registration-button{
+    text-decoration: none;
+}
 .register .blocks{
     width: 100%;
     display: flex;
