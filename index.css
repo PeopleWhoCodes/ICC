@@ -73,6 +73,10 @@ button {
 	background: none;
 }
 
+#rest-body{
+	display: none;
+}
+
 .wrapper-hero {
 	padding: 0;
 }

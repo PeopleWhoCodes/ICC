@@ -31,7 +31,7 @@ ul {
     url(../images/image\ 26.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;;
 }
 
 .team-avengers{
@@ -39,7 +39,7 @@ ul {
     url(../images/image\ 25.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;;
 }
 
 .team-wkanda{
@@ -47,7 +47,7 @@ ul {
     url(../images/image\ 22.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;;
 }
 
 .team-starforce{
@@ -55,7 +55,7 @@ ul {
     url(../images/image\ 23.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;;
 }
 
 .team-gog{
@@ -63,7 +63,7 @@ ul {
     url(../images/image\ 21.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;;
 }
 
 .team-defenders{
@@ -71,7 +71,7 @@ ul {
     url(../images/image\ 27.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center;
+    background-position: center top;;
 }
 
 .team{
@@ -79,17 +79,21 @@ ul {
 }
 
 .team ul li a {
-    color: #8d97ad;
+    color: #a1a1a1;
     padding-right: 15px;
     -webkit-transition: 0.1s ease-in;
     -o-transition: 0.1s ease-in;
-    transition: 0.1s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .team ul li a:hover {
     -webkit-transform: translate3d(0px, -5px, 0px);
     transform: translate3d(0px, -5px, 0px);
     color: #316ce8;
+}
+
+.teamPosition{
+    color: #a1a1a1;
 }
 
 .head {
