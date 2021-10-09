@@ -5,6 +5,7 @@ footer {
     width: 100%;
     position: unset;
     /* Background Color */
+    background-color: #030425;
 }
 
 footer .content {

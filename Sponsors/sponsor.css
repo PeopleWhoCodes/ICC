@@ -13,6 +13,20 @@
 .sponsor .sponsor-content{
     font-size: 12px;
     text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+.sponsor .sponsor-content .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sponsor .sponsor-content img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 10px 20px;
 }
 .sponsor .sponsor-content h2{
     line-height: 75.3px;
