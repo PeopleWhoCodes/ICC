@@ -28,6 +28,14 @@
     text-align: center;
     margin: 10px 20px;
 }
+.sponsor .sponsor-content .extra-large-img img{
+    height: 100px;
+    width: 250px;
+}
+.sponsor .sponsor-content .large-img img{
+    height: 100px;
+    width: 150px;
+}
 .sponsor .sponsor-content h2{
     line-height: 75.3px;
     color: #fff;
