@@ -71,6 +71,9 @@
 .register .box-2{
     margin: 50px 150px;
 }
+.register .devfolio-participate{
+    width: 14rem;
+}
 .register .button{
     height: 30%;
     padding: 15px 0px;

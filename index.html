@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="./About/about.css">
 	<link rel="stylesheet" href="./Registration/regis.css">
 	<link rel="stylesheet" href="./Sponsors/sponsor.css">
+	<link rel="stylesheet" href="./Sponsors/devofolio.css">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="./Footer/footer.css">
 	<link rel="stylesheet" href="./Schedule/schedule.css">
@@ -165,17 +166,18 @@
 						</a>
 					</div>
 				</div>
-				<div class="box box-2">
+				<div class="box box-2 devfolio-participate">
 					<div class="row-1 content content-2">
 						<h2>Participants</h2>
 						<p>Participate now and start with your open source journey</p>
 					</div>
-					<div class="row-2 button">
-						<!-- Add target->blank -->
+					<button id="devfolio-apply-now" style="text-transform: none;">
+					Apply with Devfolio</button>
+					<!-- <div class="row-2 button">
 						<a href="https://forms.gle/yZwJ6GpkobATDmHn9" target="_blank" class="registration-button">
 							<h4>Register Now</h4>
 						</a>
-					</div>
+					</div> -->
 				</div>
 				<div class="box box-3">
 					<div class="row-1 content">
@@ -226,7 +228,7 @@
 					<div class="box">
 						<!-- <div class="icon"><i class="fas fa-award"></i></div> -->
 						<div class="counter-wrapper">
-							<div class="counter">90</div>
+							<div class="counter">40</div>
 							<div class="plus">+</div>
 						</div>
 						<div class="text">Events</div>
@@ -261,7 +263,7 @@
 						</div>
 						<div class="timeline-content">
 							<div class="back-trans left">
-								<h1>15th November - 15st December, 2021</h1>
+								<h1>20th October - 20th November, 2021</h1>
 							</div>
 						</div>
 						<div class="timeline-content">
@@ -353,12 +355,38 @@
 					<h2>College Partner</h2>
 					<div class="images">
 						<a href="https://www.uec.ac.in/" target="_blank">
-							<img src="./Sponsors/images/College Partner/Universal-Engineering-College - Sreeraj R.png" alt="sponsor">
+							<img src="./Sponsors/images/College Partner/Universal-Engineering-College - Sreeraj R.png"
+								alt="sponsor">
+						</a>
+					</div>
+				</div>
+				<div class="sponsor-content" id="platinum">
+					<h2>Platinum Partner</h2>
+					<div class="images">
+						<a class="extra-large-img" href="https://devfolio.co/" target="_blank">
+							<img src="./Sponsors/images/Platinum Partner/Devfolio_Logo-Colored.png" alt="sponsor">
 						</a>
 					</div>
 				</div>
 				<div class="sponsor-content" id="gold">
 					<h2>Gold Sponsor</h2>
+					<div class="images">
+						<a class="extra-large-img" href="https://polygon.technology/" target="_blank">
+							<img src="./Sponsors/images/Gold Partner/Polygon_Logo-Colored@2x.png" alt="sponsor">
+						</a>
+						<a class="extra-large-img" href="https://celo.org/" target="_blank">
+							<img src="./Sponsors/images/Gold Partner/Celo Logo Color@2x.png" alt="sponsor">
+						</a>
+						<a class="extra-large-img" href="https://filecoin.io/" target="_blank">
+							<img src="./Sponsors/images/Gold Partner/Filecoin Coloured White Text.png" alt="sponsor">
+						</a>
+						<a class="extra-large-img" href="https://tezos.com/" target="_blank">
+							<img src="./Sponsors/images/Gold Partner/Tezos_Logo-White@2x.png" alt="sponsor">
+						</a>
+					</div>
+				</div>
+				<div class="sponsor-content" id="silver">
+					<h2>Silver Sponsor</h2>
 					<div class="images">
 						<a href="https://nic.xyz/" target="_blank">
 							<img src="./Sponsors/images/Gold Partner/xyz-logo-white.svg" alt="sponsor">
@@ -366,31 +394,14 @@
 						<a href="https://www.jetbrains.com/" target="_blank">
 							<img src="./Sponsors/images/Gold Partner/JetBrains.png" alt="sponsor">
 						</a>
-						<!-- <a href="https://streamyard.com/" target="_blank">
-							<img src="./Sponsors/images/Gold Partner/StreamYard.png" alt="sponsor">
-						</a> -->
-						<a class="large-img" href="https://www.axure.com/" target="_blank">
-							<img src="./Sponsors/images/Gold Partner/axure.svg" alt="sponsor">
-						</a>
-						<!-- <a href="https://devfolio.co/" target="_blank">
-							<img src="./Sponsors/images/Gold Partner/devofolio.png" alt="sponsor">
-						</a> -->
-					</div>
-				</div>
-				<div class="sponsor-content" id="silver">
-					<h2>Silver Sponsor</h2>
-					<div class="images">
 						<a href="https://www.taskade.com/" target="_blank">
 							<img src="./Sponsors/images/Silver/taskade-circle-logo.png" alt="sponsor">
 						</a>
-						<a href="https://www.polygon.com/" target="_blank">
-							<img src="./Sponsors/images/Silver/polygon.png" alt="sponsor">
-						</a>
-						<a href="https://celo.org/" target="_blank">
-							<img src="./Sponsors/images/Silver/celo.jpg" alt="sponsor">
-						</a>
 						<a href="https://replit.com/" target="_blank">
 							<img src="./Sponsors/images/Silver/replit.png" alt="sponsor">
+						</a>
+						<a class="large-img" href="https://www.axure.com/" target="_blank">
+							<img src="./Sponsors/images/Gold Partner/axure.svg" alt="sponsor">
 						</a>
 					</div>
 				</div>
@@ -400,9 +411,12 @@
 						<a href="https://www.geeksforgeeks.org/" target="_blank">
 							<img src="./Sponsors/images/Bronze/GFG LOGO-3 (1).png" alt="sponsor">
 						</a>
-						<a href="https://codingblocks.com/" target="_blank">
-							<img src="./Sponsors/images/Bronze/coding blocks.png" alt="sponsor">
+						<a href="https://codeforcause.org/" target="_blank">
+							<img src="./Sponsors/images/Bronze/Code For Cause.png" alt="sponsor">
 						</a>
+						<!-- <a href="https://codingblocks.com/" target="_blank">
+							<img src="./Sponsors/images/Bronze/coding blocks.png" alt="sponsor">
+						</a> -->
 						<a class="large-img" href="https://www.codingninjas.com/" target="_blank">
 							<img src="./Sponsors/images/Bronze/coding ninjas.png" alt="sponsor">
 						</a>
@@ -412,7 +426,8 @@
 					<h2>Community Partner</h2>
 					<div class="images">
 						<a class="extra-large-img" href="https://www.gdsclnct.xyz/" target="_blank">
-							<img src="./Sponsors/images/Community Partner/DSC Lakshmi Narain College of Technology.png" alt="sponsor">
+							<img src="./Sponsors/images/Community Partner/DSC Lakshmi Narain College of Technology.png"
+								alt="sponsor">
 						</a>
 						<a href="https://www.codedazzlers.xyz" target="_blank">
 							<img src="./Sponsors/images/Community Partner/codedazzlers.png" alt="sponsor">
@@ -436,12 +451,14 @@
 							<img src="./Sponsors/images/Community Partner/iosf.svg" alt="sponsor">
 						</a>
 						<a href="https://community.codecademy.com/rajasthani-geeks/" target="_blank">
-							<img src="./Sponsors/images/Community Partner/Codecademy Rajasthani Geeks.png" alt="sponsor">
+							<img src="./Sponsors/images/Community Partner/Codecademy Rajasthani Geeks.png"
+								alt="sponsor">
 						</a>
 						<a class="large-img" href="https://community.codecademy.com/kolkata/" target="_blank">
 							<img src="./Sponsors/images/Community Partner/Codecademy Kolkata.png" alt="sponsor">
 						</a>
-						<a class="large-img" href="https://community.codecademy.com/vellore-developer-community/" target="_blank">
+						<a class="large-img" href="https://community.codecademy.com/vellore-developer-community/"
+							target="_blank">
 							<img src="./Sponsors/images/Community Partner/Codecademy VIT.jpeg" alt="sponsor">
 						</a>
 						<a class="large-img" href="https://community.codecademy.com/central-india/" target="_blank">
@@ -472,12 +489,10 @@
 							target="_blank">
 							<img src="./Sponsors/images/Community Partner/gfg-lpu.jpg" alt="sponsor">
 						</a>
-						<a href="https://www.instagram.com/opensourcelovers/e"
-							target="_blank">
+						<a href="https://www.instagram.com/opensourcelovers/e" target="_blank">
 							<img src="./Sponsors/images/Community Partner/oslv.jpeg" alt="sponsor">
 						</a>
-						<a href="#"
-							target="_blank">
+						<a href="#" target="_blank">
 							<img src="./Sponsors/images/Community Partner/senex.png" alt="sponsor">
 						</a>
 					</div>
@@ -580,5 +595,6 @@
 		document.getElementById("rest-body").style.display = "block";
 	}
 </script>
+<script src="./Sponsors/devofolio.js"></script>
 
 </html>
