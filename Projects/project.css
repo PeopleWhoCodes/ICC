@@ -12,6 +12,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .heading {
     font-size: 5rem;
     font-weight: 500;
@@ -34,7 +38,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 4em 0px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 .search input[type=text] {
@@ -164,6 +168,50 @@
     height: 22px; */
     color: #384883;
     padding: 1px 8px;
+}
+
+.filter-techstack {
+    display: flex;
+    margin: 50px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-techstack .tech-stack-name {
+    background: #DEDEDE;
+    border-radius: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #384883;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.filter-techstack .tech-stack-name:hover {
+    transition: all 0.5s ease-in-out;
+    background: #000227;
+    color: #FFFFFF;
+}
+
+.filter-techstack .active {
+    background: #000227;
+    color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    .filter-techstack {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 850px) {
